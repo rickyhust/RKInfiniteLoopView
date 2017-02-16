@@ -1,8 +1,10 @@
 # Description
 RKInfiniteLoopView is an implementation of infinite loop image view
-Support remote URL
-Support Local File URL
-Support Image name from image asset
+>Support remote URL
+
+>Support Local File URL
+
+>Support Image name from image asset
 
 #Usage
 1. Clone files from RKInfiniteLoopView and add to your project.
