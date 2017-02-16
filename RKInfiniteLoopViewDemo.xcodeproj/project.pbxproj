@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188DF34F1E559D5000F9AC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DF34E1E559D5000F9AC64 /* main.m */; };
+		188DF3521E559D5000F9AC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DF3511E559D5000F9AC64 /* AppDelegate.m */; };
+		188DF3551E559D5000F9AC64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DF3541E559D5000F9AC64 /* ViewController.m */; };
+		188DF3581E559D5000F9AC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188DF3561E559D5000F9AC64 /* Main.storyboard */; };
+		188DF35A1E559D5000F9AC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DF3591E559D5000F9AC64 /* Assets.xcassets */; };
+		188DF35D1E559D5000F9AC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188DF35B1E559D5000F9AC64 /* LaunchScreen.storyboard */; };
+		188DF3691E559EE400F9AC64 /* RKInfiniteLoopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DF3661E559EE400F9AC64 /* RKInfiniteLoopItem.m */; };
+		188DF36A1E559EE400F9AC64 /* RKInfiniteLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DF3681E559EE400F9AC64 /* RKInfiniteLoopView.m */; };
+		188DF36F1E55A74700F9AC64 /* IMG_3810.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 188DF36C1E55A74700F9AC64 /* IMG_3810.PNG */; };
+		188DF3701E55A74700F9AC64 /* IMG_3815.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 188DF36D1E55A74700F9AC64 /* IMG_3815.PNG */; };
+		188DF3711E55A74700F9AC64 /* IMG_3816.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 188DF36E1E55A74700F9AC64 /* IMG_3816.PNG */; };
+		9472632E21DD5ACC779B12F1 /* libPods-RKInfiniteLoopViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F8B63FA182734D7A3FD2A7 /* libPods-RKInfiniteLoopViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188DF34A1E559D5000F9AC64 /* RKInfiniteLoopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKInfiniteLoopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188DF34E1E559D5000F9AC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188DF3501E559D5000F9AC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188DF3511E559D5000F9AC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188DF3531E559D5000F9AC64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188DF3541E559D5000F9AC64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188DF3571E559D5000F9AC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188DF3591E559D5000F9AC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188DF35C1E559D5000F9AC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188DF35E1E559D5000F9AC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188DF3651E559EE400F9AC64 /* RKInfiniteLoopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKInfiniteLoopItem.h; sourceTree = "<group>"; };
+		188DF3661E559EE400F9AC64 /* RKInfiniteLoopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKInfiniteLoopItem.m; sourceTree = "<group>"; };
+		188DF3671E559EE400F9AC64 /* RKInfiniteLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKInfiniteLoopView.h; sourceTree = "<group>"; };
+		188DF3681E559EE400F9AC64 /* RKInfiniteLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKInfiniteLoopView.m; sourceTree = "<group>"; };
+		188DF36C1E55A74700F9AC64 /* IMG_3810.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_3810.PNG; path = TestImage/IMG_3810.PNG; sourceTree = "<group>"; };
+		188DF36D1E55A74700F9AC64 /* IMG_3815.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_3815.PNG; path = TestImage/IMG_3815.PNG; sourceTree = "<group>"; };
+		188DF36E1E55A74700F9AC64 /* IMG_3816.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_3816.PNG; path = TestImage/IMG_3816.PNG; sourceTree = "<group>"; };
+		420B79E9EFF74C6CDB38CD4F /* Pods-RKInfiniteLoopViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKInfiniteLoopViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RKInfiniteLoopViewDemo/Pods-RKInfiniteLoopViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6567150CB2CD66708DD57364 /* Pods-RKInfiniteLoopViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKInfiniteLoopViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RKInfiniteLoopViewDemo/Pods-RKInfiniteLoopViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C3F8B63FA182734D7A3FD2A7 /* libPods-RKInfiniteLoopViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RKInfiniteLoopViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188DF3471E559D5000F9AC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9472632E21DD5ACC779B12F1 /* libPods-RKInfiniteLoopViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188DF3411E559D5000F9AC64 = {
+			isa = PBXGroup;
+			children = (
+				188DF34C1E559D5000F9AC64 /* RKInfiniteLoopViewDemo */,
+				188DF34B1E559D5000F9AC64 /* Products */,
+				55165861E6D87B4FF29500EF /* Pods */,
+				EC03CA0ABBB7FA9944BEBF67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188DF34B1E559D5000F9AC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188DF34A1E559D5000F9AC64 /* RKInfiniteLoopViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188DF34C1E559D5000F9AC64 /* RKInfiniteLoopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				188DF36B1E55A6F000F9AC64 /* TestImages */,
+				188DF3641E559EE400F9AC64 /* RKInfiniteLoopView */,
+				188DF3501E559D5000F9AC64 /* AppDelegate.h */,
+				188DF3511E559D5000F9AC64 /* AppDelegate.m */,
+				188DF3531E559D5000F9AC64 /* ViewController.h */,
+				188DF3541E559D5000F9AC64 /* ViewController.m */,
+				188DF3561E559D5000F9AC64 /* Main.storyboard */,
+				188DF3591E559D5000F9AC64 /* Assets.xcassets */,
+				188DF35B1E559D5000F9AC64 /* LaunchScreen.storyboard */,
+				188DF35E1E559D5000F9AC64 /* Info.plist */,
+				188DF34D1E559D5000F9AC64 /* Supporting Files */,
+			);
+			path = RKInfiniteLoopViewDemo;
+			sourceTree = "<group>";
+		};
+		188DF34D1E559D5000F9AC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188DF34E1E559D5000F9AC64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188DF3641E559EE400F9AC64 /* RKInfiniteLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				188DF3651E559EE400F9AC64 /* RKInfiniteLoopItem.h */,
+				188DF3661E559EE400F9AC64 /* RKInfiniteLoopItem.m */,
+				188DF3671E559EE400F9AC64 /* RKInfiniteLoopView.h */,
+				188DF3681E559EE400F9AC64 /* RKInfiniteLoopView.m */,
+			);
+			path = RKInfiniteLoopView;
+			sourceTree = "<group>";
+		};
+		188DF36B1E55A6F000F9AC64 /* TestImages */ = {
+			isa = PBXGroup;
+			children = (
+				188DF36C1E55A74700F9AC64 /* IMG_3810.PNG */,
+				188DF36D1E55A74700F9AC64 /* IMG_3815.PNG */,
+				188DF36E1E55A74700F9AC64 /* IMG_3816.PNG */,
+			);
+			name = TestImages;
+			sourceTree = "<group>";
+		};
+		55165861E6D87B4FF29500EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				420B79E9EFF74C6CDB38CD4F /* Pods-RKInfiniteLoopViewDemo.debug.xcconfig */,
+				6567150CB2CD66708DD57364 /* Pods-RKInfiniteLoopViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC03CA0ABBB7FA9944BEBF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F8B63FA182734D7A3FD2A7 /* libPods-RKInfiniteLoopViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188DF3491E559D5000F9AC64 /* RKInfiniteLoopViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188DF3611E559D5000F9AC64 /* Build configuration list for PBXNativeTarget "RKInfiniteLoopViewDemo" */;
+			buildPhases = (
+				619E50874F4DF35FF6F4751B /* [CP] Check Pods Manifest.lock */,
+				188DF3461E559D5000F9AC64 /* Sources */,
+				188DF3471E559D5000F9AC64 /* Frameworks */,
+				188DF3481E559D5000F9AC64 /* Resources */,
+				0E585DA07CA67316CF4925FE /* [CP] Embed Pods Frameworks */,
+				9480BD304332DF3F7D0BCD8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKInfiniteLoopViewDemo;
+			productName = RKInfiniteLoopViewDemo;
+			productReference = 188DF34A1E559D5000F9AC64 /* RKInfiniteLoopViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188DF3421E559D5000F9AC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = rickyhust;
+				TargetAttributes = {
+					188DF3491E559D5000F9AC64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 188DF3451E559D5000F9AC64 /* Build configuration list for PBXProject "RKInfiniteLoopViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188DF3411E559D5000F9AC64;
+			productRefGroup = 188DF34B1E559D5000F9AC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188DF3491E559D5000F9AC64 /* RKInfiniteLoopViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188DF3481E559D5000F9AC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188DF35D1E559D5000F9AC64 /* LaunchScreen.storyboard in Resources */,
+				188DF35A1E559D5000F9AC64 /* Assets.xcassets in Resources */,
+				188DF3701E55A74700F9AC64 /* IMG_3815.PNG in Resources */,
+				188DF3711E55A74700F9AC64 /* IMG_3816.PNG in Resources */,
+				188DF3581E559D5000F9AC64 /* Main.storyboard in Resources */,
+				188DF36F1E55A74700F9AC64 /* IMG_3810.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E585DA07CA67316CF4925FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RKInfiniteLoopViewDemo/Pods-RKInfiniteLoopViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619E50874F4DF35FF6F4751B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9480BD304332DF3F7D0BCD8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RKInfiniteLoopViewDemo/Pods-RKInfiniteLoopViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188DF3461E559D5000F9AC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188DF3551E559D5000F9AC64 /* ViewController.m in Sources */,
+				188DF3521E559D5000F9AC64 /* AppDelegate.m in Sources */,
+				188DF34F1E559D5000F9AC64 /* main.m in Sources */,
+				188DF3691E559EE400F9AC64 /* RKInfiniteLoopItem.m in Sources */,
+				188DF36A1E559EE400F9AC64 /* RKInfiniteLoopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188DF3561E559D5000F9AC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188DF3571E559D5000F9AC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188DF35B1E559D5000F9AC64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188DF35C1E559D5000F9AC64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188DF35F1E559D5000F9AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188DF3601E559D5000F9AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188DF3621E559D5000F9AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420B79E9EFF74C6CDB38CD4F /* Pods-RKInfiniteLoopViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKInfiniteLoopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.RKInfiniteLoopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188DF3631E559D5000F9AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6567150CB2CD66708DD57364 /* Pods-RKInfiniteLoopViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKInfiniteLoopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.RKInfiniteLoopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188DF3451E559D5000F9AC64 /* Build configuration list for PBXProject "RKInfiniteLoopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188DF35F1E559D5000F9AC64 /* Debug */,
+				188DF3601E559D5000F9AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188DF3611E559D5000F9AC64 /* Build configuration list for PBXNativeTarget "RKInfiniteLoopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188DF3621E559D5000F9AC64 /* Debug */,
+				188DF3631E559D5000F9AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188DF3421E559D5000F9AC64 /* Project object */;
+}
